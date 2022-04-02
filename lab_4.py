@@ -40,6 +40,7 @@ def main():
 
 def ask_question(question, answer, number_of_tries=3):
     num_tries = 0 
+    ans = ""
     while num_tries < number_of_tries:
         num_tries += 1
         ans = input(question)
